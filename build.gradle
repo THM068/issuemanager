@@ -24,14 +24,17 @@ targetCompatibility = 1.8
 repositories {
 	mavenCentral()
 	maven {
-		url 'https://repo.spring.io/libs-milestone'
+		url "https://repo.spring.io/libs-snapshot"
 	}
 }
 
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
-	compile 'org.springframework.social:spring-social-github:1.0.0.M4'
+	compile("org.springframework.social:spring-social-github:1.0.0.BUILD-SNAPSHOT")
+	compile("org.springframework.boot:spring-boot-starter-mobile")
+	compile("org.springframework.boot:spring-boot-starter-actuator")
+	compile("org.springframework.boot:spring-boot-starter-remote-shell")
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 
