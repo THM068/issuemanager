@@ -35,6 +35,9 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-mobile")
 	compile("org.springframework.boot:spring-boot-starter-actuator")
 	compile("org.springframework.boot:spring-boot-starter-remote-shell")
+	compile group: 'com.maxmind.db', name: 'maxmind-db', version: '0.3.1'
+	compile 'com.maxmind.geoip2:geoip2:2.7.0'
+	compile "com.fasterxml.jackson.core:jackson-databind:2.4.2"
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 

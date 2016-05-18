@@ -5,6 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.io.IOException;
+
 /**
  * Created by tm1c14 on 17/05/2016.
  */
@@ -19,7 +21,7 @@ public class IssueController {
     }
 
     @RequestMapping(value = "/")
-    public String index(Model model) {
+    public String index(Model model){
         model.addAttribute("issues", issueManager.findOPenIssues());
         return "index";
     }

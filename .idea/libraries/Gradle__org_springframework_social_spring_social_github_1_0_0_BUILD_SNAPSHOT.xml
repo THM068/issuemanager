@@ -2,8 +2,11 @@
   <library name="Gradle: org.springframework.social:spring-social-github:1.0.0.BUILD-SNAPSHOT">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/Could not find org.springframework.social:spring-social-github:1.0.0.BUILD-SNAPSHOT." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.social/spring-social-github/1.0.0.BUILD-SNAPSHOT/b40ab52f4fba4ab6d4aa2aa977919689f75b85ab/spring-social-github-1.0.0.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.social/spring-social-github/1.0.0.BUILD-SNAPSHOT/ce14e62c8f01725c1533f001a494131141b0eb3c/spring-social-github-1.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IssueManger.iml" filepath="$PROJECT_DIR$/.idea/modules/IssueManger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IssueManger_main.iml" filepath="$PROJECT_DIR$/.idea/modules/IssueManger_main.iml" group="IssueManger" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IssueManger_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IssueManger_test.iml" group="IssueManger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/issuemanager.iml" filepath="$PROJECT_DIR$/.idea/modules/issuemanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/issuemanager_main.iml" filepath="$PROJECT_DIR$/.idea/modules/issuemanager_main.iml" group="issuemanager" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/issuemanager_test.iml" filepath="$PROJECT_DIR$/.idea/modules/issuemanager_test.iml" group="issuemanager" />
     </modules>
   </component>
 </project>
