@@ -51,7 +51,7 @@ public class GeolocationService {
         return new ResponseEntity<JsonNode>(jsonNode, HttpStatus.OK);
     }
 
-    @PostConstruct
+    //@PostConstruct
     public void init() {
         try {
             logger.info("GeolocationService: Trying to load GeoLite2-Country database...");
